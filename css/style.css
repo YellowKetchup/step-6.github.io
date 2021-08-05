@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*, body{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    font-size: 18px;   
+}
+
+.wrapper{
+    width: 100%;
+    margin: 5px auto;   
+    overflow: hidden;
+    text-align: center;
+    background-image: url("../img/fon.jpg") ;
+    background-size: cover;
+    
+}
+.item{
+    border-radius: 10px;    
+    margin: 30px;
+    
+}
+.header{
+    background-color: #FFAB11;
+    height: 220px;
+    
+}
+.nav{
+    background-color: #888;
+    height: 275px;
+    overflow: hidden;
+    line-height: 40px;
+    position: relative;  
+}
+.nav li{
+    float: right;
+    list-style-type: none;
+    margin: 0 10px;
+    width: 160px;
+}
+.nav a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.nav a:hover{
+    text-decoration: underline;
+    
+}
+.contact{
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.contact ul{
+    width: 180px;
+    margin: 0; /* Нет отступов вокруг */
+    padding: 0; /* Убираем поля вокруг текста */
+    font-size: 10pt;
+}
+
+.contact li ul{
+    position: absolute;
+    display: none;
+    margin-left: 80px;
+    margin-top: 0;
+    
+}
+
+.contact li a{
+    display: block;
+    color: green;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+.contact li a:hover{
+    color: #ffe;
+    background-color: #5488af;
+}
+.contact li:hover ul{
+    display: block;
+}
+.tel_a{
+    color: gray; /* Серый цвет */
+    font-size: 24px; /* Размер */
+    text-decoration: none; /* Убираем подчёркивание */
+}
+.brd{
+    border-bottom: 1px solid #ccc;
+}
+/* .tel_a:hover,.tel_a:hover ~ .tel_a{
+color: blue
+} */
+.al{
+    background-color: #bbb;
+    float: left;
+    width: 20%;
+    margin: 0 30px;
+    /* border: 5px solid black; */
+}
+.ar{
+    background-color: yellowgreen;
+    float: right;
+    width: 20%;
+    margin: 0 30px;
+    /* border: 5px solid black; */
+    
+}
+.item_main{
+    background-color: yellow;
+    width: 50%;
+    /* border: 5px solid black; */
+    margin: 30px auto;
+    border-radius: 10px; 
+   
+}
+.under_main{
+   background-color: lightcoral;
+   /* border: 5px solid black; */
+   width: 50%;
+   margin: 30px auto;
+   text-align: center;
+   padding-top: 200px ;
+   border-radius: 10px; 
+      
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+/* .clear{
+    clear: both;
+} */
+.item_footer{
+    background-color:#6a67ce;
+    height: 280px;
+    /* border: 5px solid black; */
+    border-radius: 10px; 
+}
+.footer-menu{
+    padding:3em 0;
+    box-shadow: 0 0px 10px #ccc;
+    background-color:#34568B;
+    
+}
+.social {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.social__item{
+    padding:0 15px;
+}
+.social__link{
+    padding: 0 20px;
+}
+p.copy-right{
+    font-size:1em;
+    text-align: center;
+}
+p.copy-right a{
+    color:#D46E00;
+    text-decoration:none;
+    
+}
+p.copy-right a:hover{
+    color:#25221C;
+}
